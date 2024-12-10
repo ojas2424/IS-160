@@ -19,6 +19,30 @@ The models focus on improving minority class performance while maintaining overa
 
 ---
 
+### **Datasets**
+The project uses the following datasets for Fresno County:
+
+1. **Bus Routes Data (`bus_routes_data.csv`)**  
+   - Contains details about bus routes in the region.
+
+2. **Bus Stops Data (`bus_stop_data.csv`)**  
+   - Contains coordinates and details of existing bus stops.
+
+3. **City Limits Data (`city_limits_data.csv`)**  
+   - Defines the geographic boundaries of Fresno County.
+
+4. **Streets Data (`street_data.csv`)**  
+   - Includes information on major streets and highways.
+
+5. **Zoning Data (`zoning_data.csv`)**  
+   - Contains zoning classifications for different parcels of land.
+
+6. **Fresno Addresses Data (`fresno_addresses_data.zip`)**  
+   - Contains address-level data, including parcel locations and additional features.  
+   - **Note**: This file is provided as a zip folder and must be extracted before use.
+
+---
+
 ### **Deep Learning Models**
 #### **1. Baseline Model**
 - A simple feedforward neural network trained on the raw dataset.
